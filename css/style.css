@@ -10,13 +10,53 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:#21254b;
+
 }
 .textbox{
     
     margin-right: 5px;
-   
     border-radius: 15px;
     padding: 15px;
     background-color: #373b6a;
     border-color: black;
+}
+
+#container{
+    width:80vw;
+    margin: 0 auto;
+
+}
+
+#row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+#movieblock img{
+    height: 400px;
+    width: 300px;
+}
+
+.moviename{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #373b6a;
+}
+
+.moviename strong{
+ color: white;
+ font-size: 16px;
+
+}
+
+.moviename span{
+    color: green;
+    background-color:#21254b;
+    padding: 3px;
+
 }
