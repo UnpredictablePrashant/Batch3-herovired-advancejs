@@ -34,10 +34,20 @@ body{
     margin-top: 50px;
 }
 
+#movieblock{
+    position: relative;
+    overflow: hidden;
+
+}
+#movieblock:hover .movieDescription {
+    display: block;
+    transition: all 1s ease-in-out;
+}
 
 #movieblock img{
     height: 400px;
     width: 300px;
+
 }
 
 .moviename{
@@ -58,5 +68,15 @@ body{
     color: green;
     background-color:#21254b;
     padding: 3px;
+
+}
+
+.movieDescription{
+    background-color: white;
+    padding: 30px 15px;
+    position:absolute;
+    bottom: 0;
+    display: none;
+
 
 }
